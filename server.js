@@ -85,7 +85,7 @@ const personagens = [
 // Método: GET
 // Descrição: Retorna a mensagem padrão de funcionamento da API
 app.get("/", (request, response) => {
-    response.send("API de Filmes funcionando perfeitamente! Luz, câmera, ação!");
+    response.send("API de Filmes funcionando");
 });
 
 // GET /personagens
